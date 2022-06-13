@@ -17,6 +17,3 @@ app.use("/api/users", require("./routes/userRoutes"));
 app.use(errorHandler);
 
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
-
-// const CONNECTION_URL =
-// 	"mongodb+srv://ariwolf:ariwolf123@cluster0.r6iu2.mongodb.net/?retryWrites=true&w=majority";
